@@ -1,0 +1,77 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 10px;
+}
+
+main {
+    margin-top: 20px;
+    background: lightgrey;
+}
+
+header {
+    background: url(./img/foto-banner.jpg) no-repeat center center / cover;
+    min-height: 700px;
+    filter: grayscale(100%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    background-color: lightblue;
+    justify-content: flex-end;
+}
+
+.menu__item {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.img {
+    display: inline-block;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+.text__title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.text__subtitle {
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.btn {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.subtext__box {
+    color: white;
+}
+
+.subtext__box-text {
+    color: lightslategray
+}
